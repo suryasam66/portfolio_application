@@ -1,0 +1,365 @@
+/*
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+*/
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  .blur{
+    flex-wrap: wrap;
+  }
+  .text-container{
+    margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  
+  .blur{
+   
+    width: 5rem;
+    height: 5rem;
+    top: 62%;
+    left: 19%; 
+    filter: blur(52px);
+    
+  }
+  .blur1{
+    position: unset;
+    width: 7rem;
+    height: 7rem;
+    top: 68%;
+    left: 22%;
+    filter: blur(57px); 
+  }
+  .blur2{
+   
+    width: 7rem;
+    height: 7rem;
+    top: 68%;
+    left: 72%; 
+    filter: blur(52px);
+    
+  }
+  .blur3{
+    position: unset;
+    width: 5rem;
+    height: 5rem;
+    top: 70%;
+    left: 72%;
+    filter: blur(52px); 
+  }
+  .blur-projects{
+    position: unset;
+    width: 4rem;
+    height: 4rem;
+    top: 3%;
+    left: 36%;
+    filter: blur(37px);
+  }
+  .blur-projects2{
+    position: unset;
+    width: 3rem;
+    height: 3rem;
+    top: 2.9%;
+    left: 39%;
+    filter: blur(20px);
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .section-container {
+    width: auto;
+    margin-right: 8px;
+    justify-content: center;
+  }
+  .experience-details-container{
+    width: auto;
+    margin-right: 3px;
+    justify-content: center;
+  }
+  .contact-info-upper-container{
+    width: auto;
+    margin-right: 6px;
+    justify-content: center;
+  }
+  .blur{
+    position: unset;
+    width: 7rem;
+    height: 7rem;
+    top: 55%;
+    left: 5%; 
+    filter: blur(42px);
+    
+  }
+  .blur1{
+    position: unset;
+    width: 5rem;
+    height: 5rem;
+    top: 54%;
+    left: 2%;
+    filter: blur(37px); 
+  }
+  .blur-skills{
+    position: unset;
+    width: 5rem;
+    height: 5rem;
+    top: 4%;
+    left: 55%;
+    filter: blur(57px);
+  }
+  .blur-skills2{
+    position: unset;
+    width: 3rem;
+    height: 3rem;
+    top: 4%;
+    left: 52%;
+    filter: blur(27px);
+  }
+  .blur-projects{
+    position: unset;
+    width: 6rem;
+    height: 6rem;
+    top: 3%;
+    left: 22%;
+    filter: blur(37px);
+  }
+  .blur-projects2{
+    position: unset;
+    width: 3rem;
+    height: 3rem;
+    top: 2.9%;
+    left: 32%;
+    filter: blur(17px);
+  }
+  .text-container{
+    margin-left: 4px;
+  }
+}
+/* Base styles for all screen sizes */
+.blur, .blur1, .blur2, .blur3, .blur-about, .blur-projects, .blur-about2, .blur-projects2, .blur-skills, .blur-skills2 {
+  position: absolute; /* or relative, fixed, depending on your design */
+  right: 10px; /* Default position */
+  transition: all 0.3s ease;
+}
+
+/* Styles for screen size up to 600px */
+@media only screen and (max-width: 600px) {
+  .blur, .blur1, .blur2, .blur3, .blur-about, .blur-projects, .blur-about2, .blur-projects2, .blur-skills, .blur-skills2 {
+      right: 5px; /* Adjusted right position for smaller screens */
+  }
+}
+
+/* Styles for screen size from 601px to 1200px */
+
+
+/* Styles for screen size from 1201px to 1400px */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+   .blur1, .blur2, .blur3, .blur-about, .blur-projects, .blur-about2, .blur-projects2, .blur-skills, .blur-skills2 {
+      right: 20px; /* Adjusted right position for larger screens */
+  }
+}
+
+/* Styles for screen size above 1400px */
+@media only screen and (min-width: 1401px) {
+  .blur, .blur1, .blur2, .blur3, .blur-about, .blur-projects, .blur-about2, .blur-projects2, .blur-skills, .blur-skills2 {
+      right: 25px; /* Adjusted right position for extra large screens */
+  }
+}
+
