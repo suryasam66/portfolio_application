@@ -1,1 +1,1 @@
-Live Demo :   https://suryakanta-samanta-portfolio.vercel.app/
+Live Demo :   https://suryakanta-samanta.vercel.app/
